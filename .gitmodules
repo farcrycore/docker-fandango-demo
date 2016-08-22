@@ -1,0 +1,6 @@
+[submodule "www/farcry/core"]
+	path = www/farcry/core
+	url = http://github.com/farcrycore/core
+[submodule "www/farcry/plugins/farcrycms"]
+	path = www/farcry/plugins/farcrycms
+	url = http://github.com/farcrycore/plugin-farcrycms
