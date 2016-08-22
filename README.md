@@ -1,10 +1,10 @@
 # Fandango Demo for Docker
 
-This is a demo of the FarCry "Fandango" sample project which has been configured to run in a Docker environment.
+This is a demo of the [FarCry "Fandango"](https://github.com/farcrycore/project-fandango) sample project which has been configured to run in a [Docker](https://www.docker.com/) environment.
 
 ## Run locally using Docker Workbench
 
-1. Install Docker Workbench and its dependencies and create a workbench to use
+1. Install [Docker Workbench](https://github.com/justincarter/docker-workbench) and its dependencies and create a workbench to use
 2. Clone the project inside your workbench folder;
 
     `git clone --recursive https://github.com/farcrycore/docker-fandango-demo`
@@ -37,4 +37,7 @@ When the application has finished starting up you will see something similar to 
     fandango_1 | 22-Aug-2016 14:33:54.261 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
     fandango_1 | 22-Aug-2016 14:33:54.262 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1606 ms
 
+
 You can browse to the URL provided by `docker-workbench up` to see the application running in your browser.
+
+![FarCry Fandango](http://daemonite.github.io/fandango/project-asset/img/home.png)
