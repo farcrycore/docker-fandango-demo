@@ -1,0 +1,14 @@
+fandango:
+  build: .
+  environment:
+    - "VIRTUAL_HOST=docker-fandango-demo.*"
+    - "FARCRY_DSN=fandango"
+    - "FARCRY_DSN_CLASS=org.h2.Driver"
+    - "FARCRY_DSN_CONNECTIONSTRING=jdbc:h2:db/fandango;MODE=MySQL"
+  volumes:
+    - "/workbench/docker-fandango-demo/www:/var/www"
+    - "/workbench/docker-fandango-demo/db:/usr/local/tomcat/db"
+    - "/workbench/docker-fandango-demo/logs/lucee:/opt/lucee/web/logs"
+    - "/workbench/docker-fandango-demo/logs/nginx:/var/log/nginx"
+    - "/workbench/docker-fandango-demo/logs/supervisor:/var/log/supervisor"
+    - "/workbench/docker-fandango-demo/logs/tomcat:/usr/local/tomcat/logs"

@@ -1,0 +1,4 @@
+*.sublime-project
+*.sublime-workspace
+logs/
+www/cache/
