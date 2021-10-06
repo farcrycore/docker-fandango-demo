@@ -11,7 +11,7 @@
 <cfset THIS.loginstorage = "cookie" />
 <cfset THIS.scriptprotect = "" />
 <cfset THIS.setclientcookies = true />
-<cfset THIS.setdomaincookies = true />
+<cfset THIS.setdomaincookies = false />
 <cfset THIS.mappings = structNew() />
 
 
