@@ -40,4 +40,8 @@ When the application has finished starting up you will see something similar to 
 
 You can browse to the URL provided by `docker-workbench up` to see the application running in your browser.
 
+Note, recent versions of Lucee have the H2 database driver disabled by default.  You may need to login to the Lucee administration interface and install the H2 database driver extension before the application will come up.
+
+The demo administration webtop is available at the URL nominated by `docker-workbench` with a suffix of `/farcry/core/webtop/index.cfm`. Login to the demo with the following credentials: `farcry` / `farcry`.
+
 ![FarCry Fandango](http://daemonite.github.io/fandango/project-asset/img/home.png)
